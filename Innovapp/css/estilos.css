@@ -1,0 +1,181 @@
+#nav_header {
+    background-color: #354f7b9d;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+#nav_header .navbar-brand {
+    color: white;
+    margin-left: 15px;
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#contactanos {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-family: "Jost", sans-serif;
+    color: white;
+}
+
+#body_1 {
+    background-color: #37517e;
+}
+
+.elemento {
+    margin-right: auto;
+  }
+
+#botones_navegacion {
+    float: right;
+    margin-right: 10px;
+}
+
+#inicio {
+    margin: auto;
+}
+
+
+/* Encabezados y parrafos */
+
+.custom-heading4 {
+    font-family: "Jost", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.custom-heading3 {
+    font-family: "Jost", sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.custom-p {
+    margin-left: 5px;
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+#botones_navegacion .nav-link {
+    color: white;
+    font-family: "Jost", sans-serif;
+}
+
+.carousel-item img {
+    max-width: 640px;
+    max-height: 360px;
+    padding: 20px;
+  }
+
+.card img {
+    max-width: 420;
+    max-height: 480;
+}
+
+.carousel-item {
+    text-align: center;
+    animation: flotar 4s ease-in-out infinite; /* Animación infinita */
+}
+
+  @keyframes flotar {
+    0% {
+      top: 0; /* Posición inicial en la parte superior */
+    }
+    50% {
+      top: -25px; /* Posición máxima hacia abajo */
+    }
+    100% {
+      top: 0; /* Volver a la posición inicial */
+    }
+  }
+  
+#boton_slice_1, #boton_slice_2, #boton_slice_3 {
+    display: none;
+}
+
+.scrollspy {
+    margin-top: 5%;
+}
+
+.p-custom2 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
+
+.divisor {
+    border: 1px solid #eee;
+    margin: 5% 0;
+  }
+  
+.rounded-circle {
+    max-width: 250;
+    max-height: 250;
+}
+
+.nombres {
+    font-size: 50px;
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+
+.logos {
+    width: 80%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: normal;
+}
+
+.container .custom-div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+label {
+    margin-top: 20px;
+}
+
+#boton_enviar {
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #37517e;
+}
+
+
+.card-text {
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+}
+
+.card-title {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}

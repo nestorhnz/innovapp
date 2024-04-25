@@ -1,0 +1,268 @@
+<html>
+<head>
+    <title>Innovapp</title>
+    <!-- Vinculamos estilo CSS mediante archivo externo-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Incorporamos bootstrap mediante CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Vinculamos el archivo javascript -->
+    <script src="js/funciones.js"></script>
+
+      <!-- Traemos una fuente de google -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+
+<body id="body_1">
+
+  <div class="container">
+    <!-- Barra de navegación-->
+          <nav class="navbar custom-nav-bg" id="nav_header">
+            <div class="col-4">
+              <a class="navbar-brand" href="#">
+                INNOVAPP
+              </a>
+            </div>
+
+            <!-- Scrollspy  -->
+            <div class="col-8">
+                <ul class="nav custom-nav-bg" id="botones_navegacion">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Empresa">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Equipo">Equipo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Socios">Socios</a>
+                  </li>
+                  <li class="nav-item" id="contactanos">
+                    <a class="nav-link" href="#Contactanos">Contactanos</a>
+                  </li>
+                </ul>
+            </div> 
+          </nav> 
+
+          <!-- "Inicio" -->
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="container" tabindex="0">
+
+            <!--Primera seccion "fila 1"-->
+            <div class="row">
+
+              <!--fila 1, Columna 1: Presentacion -->
+              <div class="col-6" id="inicio">
+                <h4 class="custom-heading4"><strong>Un mundo de posibilidades a tu alcance</strong></h4>
+                <p class="custom-p">Transformamos tus ideas en realidad, ¡Lleva a tu negocio al <u><strong>siguiente nivel!</strong></u></p>
+              </div>
+
+              <!--Fila 1, Columna 2: Carrusel-->
+              <div class="col-6">
+
+                <div id="carrusel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" class="invisble" id="boton_slice_1"></button>
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2" class="invisble" id="boton_slice_2"></button>
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3" class="invisble" id="boton_slice_3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="7000">
+                      <img src="img\idea.png">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img\mano-telefono.png">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img\telefono.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
+
+            <!--Separador-->
+            <hr class="divisor">
+
+            <!--Acerca de la empresa-->
+            <div>
+              <h4 class="custom-heading3">Acerca de nosotros</h4>
+              <div class="row">
+                <div class="col-6">
+                  <p class="p-custom2">En InnovaApp somos una startup líder en el ámbito de las tecnologías de la información, especializados en el desarrollo de aplicaciones móviles innovadoras y de alto rendimiento. Nuestro equipo está impulsado por la pasión por la tecnología y la creatividad, trabajando incansablemente para ofrecer soluciones digitales que transformen la experiencia del usuario. Desde la conceptualización hasta la implementación, estamos comprometidos a brindar a nuestros clientes productos de calidad que impulsen su presencia en el mercado y generen un impacto duradero. Con un enfoque centrado en la excelencia técnica y la satisfacción del cliente, estamos listos para llevar su visión digital al siguiente nivel.</p>
+                </div>
+                <div class="col-6">
+                  <p class="p-custom2">Desarrollamos aplicaciones móviles para una amplia gama de plataformas, incluyendo: Android, iOS y Windows Phone
+
+                    <strong>¿Que nos hace distintos?</strong>
+                    <ol class="p-custom2">
+                      <li><strong>Experiencia:</strong> Contamos con un equipo de desarrolladores altamente calificados con años de experiencia en la creación de aplicaciones innovadoras y eficientes.</li>  
+                      <li><strong>Compromiso:</strong> Nos dedicamos a comprender las necesidades específicas de cada cliente para ofrecer soluciones personalizadas que superen sus expectativas.</li>  
+                      <li><strong>Pasion:</strong> Nos apasiona lo que hacemos y nos sentimos orgullosos de crear aplicaciones que hacen una diferencia real en el mundo</li>  
+                    </ol>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Separador-->
+            <hr class="divisor" id="Empresa">
+
+            <!--Servicios de la empresa-->
+            <div>
+                <h4 class="custom-heading3">¿Qué podemos hacer por ti?</h4>
+            </div>
+
+            <!--Tarjetas-->
+            <div class="row">  
+              <!--Tarjeta 1-->
+              <div class="col-3">
+                <div class="card">
+                  <img src="img\triangulo.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Desarrollo de aplicaciones móviles personalizadas</h5>
+                    <p class="card-text">Creamos aplicaciones móviles a medida para satisfacer las necesidades específicas de cada cliente, desde aplicaciones empresariales hasta juegos y aplicaciones de entretenimiento</p>
+                    <a href="#Contactanos" class="btn btn-primary">¡Lo quiero!</a>
+                  </div>
+                </div>
+              </div>
+
+            <!--Tarjeta 2-->
+            <div class="col-3">
+              <div class="card">
+                <img src="img\teamwork.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Desarrollo front-end y Desarrollo de back-end</h5>
+                  <p class="card-text">Creamos robustos sistemas front-end y back-end que garantizan el rendimiento, la escalabilidad y la seguridad de las aplicaciones. Nuestros equipo se encargaran de todo</p>
+                  <a href="#Contactanos" class="btn btn-primary">¡Lo quiero!</a>
+                </div>
+              </div>
+            </div>
+
+            <!--Tarjeta 3-->
+            <div class="col-3">
+              <div class="card">
+                <img src="img\pizarra.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Pruebas y control de calidad y mantención de tu proyecto</h5>
+                  <p class="card-text">Realizamos pruebas exhaustivas para garantizar que las aplicaciones sean funcionales, libres de errores y brinden una experiencia de usuario óptima y de la mantención de aplicación</p>
+                  <a href="#Contactanos" class="btn btn-primary">¡Lo quiero!</a>
+                </div>
+              </div>
+            </div>
+
+            <!--Tarjeta 4-->
+            <div class="col-3">
+              <div class="card">
+                <img src="img\aplicaciones.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Diseño de interfaces de usuario (UI) y experiencia de usuario (UX)</h5>
+                  <p class="card-text">Diseñamos interfaces atractivas e intuitivas que sean fáciles de usar y brinden una experiencia de usuario excepcional.</p>
+                  <a href="#Contactanos" class="btn btn-primary">¡Lo quiero!</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+            <!--Separador-->
+            <hr class="divisor" id="Servicios">
+
+            <!--Conoce a nuestro equipo-->
+            <div>
+              <h4 class="custom-heading3">Nuestra alineación ideal</h4>
+          </div>
+          
+          <!--Fotos del equipo-->
+          <div class="row">
+            <div class="col-3">
+              <img class="rounded-circle" src="img\miembro_equipo_1.jpg">
+              <h2 class="nombres">José Fernández</h2>
+              <p class="p-custom2">CEO</p>
+            </div>
+            <div class="col-3">
+              <img class="rounded-circle" src="img\miembro_equipo_2.jpg">
+              <h2 class="nombres">Javiera Henriquez</h2>
+              <p class="p-custom2">Jefe de desarrollo</p>
+            </div>
+            <div class="col-3">
+              <img class="rounded-circle" src="img\miembro_equipo_3.jpg">
+              <h2 class="nombres">Camilo Riquelme</h2>
+              <p class="p-custom2">Programador</p>
+            </div>
+            <div class="col-3">
+              <img class="rounded-circle" src="img\miembro_equipo_4.jpg">
+              <h2 class="nombres">María Hernández</h2>
+              <p class="p-custom2">Diseñadora en jefe</p>
+            </div>
+          </div>
+
+            <!--Separador-->
+            <hr class="divisor" id="Equipo">
+            
+            <!--Imagenes de los socios-->
+            <div class="row">
+              <div class="col-2">
+                <img src="img\logo (1).png" class="logos">               
+              </div>
+              <div class="col-2">
+                <img src="img\logo (2).png" class="logos">               
+              </div>
+              <div class="col-2">
+                <img src="img\logo (3).png" class="logos">               
+              </div>
+              <div class="col-2">
+                <img src="img\logo (4).png" class="logos">               
+              </div>
+              <div class="col-2">
+                <img src="img\logo (5).png" class="logos">               
+              </div>
+              <div class="col-2">
+                <img src="img\logo (6).png" class="logos">               
+              </div>
+            </div>
+            
+            <!--Separador-->
+            <hr class="divisor" id="Socios">
+
+            <!--Formulario fila 1-->
+            <div class="custom-div">
+              <div class="row">
+                <div class="col">
+                  <label for="nombre_cliente" class="form-label">Nombres</label>
+                  <input type="text" class="form-control" id="nombre_cliente" aria-describedby="emailHelp" placeholder="Esteban Emilio">             
+                </div>
+                <div class="col">
+                  <label for="apellido_cliente" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="apellido_cliente" aria-describedby="emailHelp" placeholder="Illanes Mendoza">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="numero_cliente" class="form-label">Numero</label>
+                  <input type="tel" class="form-control" id="numero_cliente" aria-describedby="emailHelp" placeholder="9 2533 5698">             
+                </div>
+                <div class="col">
+                  <label for="email_cliente" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email_cliente" aria-describedby="emailHelp" placeholder="ejemplo@email.com">
+                </div>
+              </div>
+              <div class="row">
+                <button type="button" class="btn btn-primary" id="boton_enviar">Enviar</button>
+                <label for="boton_enviar" style="text-align: center;">¡Envianos tus datos y pronto te contactaremos!</label>
+              </div>
+            </div>
+
+          <!--Separador-->
+          <hr class="divisor" id="Contactanos">
+          
+</body>
+</html>
